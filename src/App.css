@@ -13,6 +13,14 @@
   }
 }
 
+body {background-color: maroon;}
+
+.bearLogo {
+  width: 500px;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -34,5 +42,40 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+.card {
+  margin: 16px;
+  border-style: solid outset;
+  border-color: green;
+}
+
+.card img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: calc(33% - 2rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: calc(25% - 2rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: calc(20% - 2rem);
   }
 }

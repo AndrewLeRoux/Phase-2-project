@@ -1,0 +1,43 @@
+{
+    "rowers": [
+      {
+        "name": "Ben Davison",
+        "hometown": "Inverness, FL",
+        "college": "University of Washington",
+        "image": "https://usrowing.org/images/2021/7/26/Davison_19.jpg?width=300",
+        "employer": "Fremont Group - Operations Intern, Oakland Strokes - Asistant Coach",
+        "collegeResults": "2015 IRA National Championships (Freshman 8+) - 1st, 2017 IRA National Championships (2nd 8+) - 1st, 2018 IRA National Championships (Varsity 8+) - 2nd, 2019 IRA National Championships (Varsity 8+) - 2nd",
+        "nationalTeamResults": "2016 Final Olympic Qualification Regatta (Men's 4x) - 4th, 2017 World Rowing Under 23 Championships (Men's 4+) - 3rd, 2018 World Rowing Under 23 Championships (Men's 1x) - 4th, 2019 World Rowing Championships (Men's 8+) - 5th, 2020 Tokyo Olympic Games (Men's 8+) - 4th",
+        "facts": "Born in Durham, England. Enjoys sports, intermediate crossword puzzles, breakfast burritos (with tater tots inside) and spending time with his parent's bulldog, Rodney"
+      },
+      {
+        "name": "Justin Best",
+        "hometown": "Kennett Square, Pennsylvania",
+        "college": "Drexel University",
+        "image": "https://usrowing.org/images/2021/7/26/Best_14.jpg?width=300",
+        "employer": "Analyst at Union Square Advisors",
+        "collegeResults": "2017, 2018, and 2019 Dad Vail Regatta Medalist",
+        "nationalTeamResults": "2015 World Rowing Under 19 Championships (Men’s 8+) – 2nd, 2018 World Rowing Under 23 Championships (Men’s 8+) – 1st and Worlds Best Time, 2019 World Rowing Under 23 Championships (Men’s 8+) – 2nd, 2020 Tokyo Olympic Games (Men's 8+) – 4th",
+        "facts": "Enjoys watching movies, exercising, making and editing YouTube videos"
+      },
+      {
+        "name": "Sorin Koszyk",
+        "hometown": "Grosse Pointe Park, Michigan",
+        "college": "Cornell University",
+        "image": "https://usrowing.org/images/2021/4/30/2021_WCI_Sorin_Koszyk.jpg?width=300",
+        "employer": "Coach Merion Mercy Academy Women’s Crew, Radnor HS summer learn to row",
+        "collegeResults": "2017 IRA National Championship (Varsity Lightweight 8+) – 1st, 2019 IRA National Championship (Varsity Lightweight 8+) – 1st, 2019 Canadian Henley (Under 23 1x) – 1st",
+        "nationalTeamResults": "2021 Olympic Trials (M4x) – 1st",
+        "facts": "Enjoys playing basketball outside of rowing"
+      },
+      {
+        "name": "Andrew LeRoux",
+        "college": "Princeton University",
+        "image": "https://toppng.com/uploads/preview/shrek-png-11569186903fxw12fqgcs.png",
+        "employer": "Student at Flatiron School",
+        "collegeResults": "2017 IRA National Championships (Varsity 8+) – 4th, 2018 IRA National Championships (Varsity 8+) – 5th",
+        "nationalTeamResults": "2021 US Rowing National Championships (Mens 4- & Mens 2-) – 1st ",
+        "facts": "Enjoys Golf, chess, and cycling"
+      }
+    ]
+  }
