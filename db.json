@@ -1,43 +1,114 @@
 {
-    "rowers": [
-      {
-        "name": "Ben Davison",
-        "hometown": "Inverness, FL",
-        "college": "University of Washington",
-        "image": "https://usrowing.org/images/2021/7/26/Davison_19.jpg?width=300",
-        "employer": "Fremont Group - Operations Intern, Oakland Strokes - Asistant Coach",
-        "collegeResults": "2015 IRA National Championships (Freshman 8+) - 1st, 2017 IRA National Championships (2nd 8+) - 1st, 2018 IRA National Championships (Varsity 8+) - 2nd, 2019 IRA National Championships (Varsity 8+) - 2nd",
-        "nationalTeamResults": "2016 Final Olympic Qualification Regatta (Men's 4x) - 4th, 2017 World Rowing Under 23 Championships (Men's 4+) - 3rd, 2018 World Rowing Under 23 Championships (Men's 1x) - 4th, 2019 World Rowing Championships (Men's 8+) - 5th, 2020 Tokyo Olympic Games (Men's 8+) - 4th",
-        "facts": "Born in Durham, England. Enjoys sports, intermediate crossword puzzles, breakfast burritos (with tater tots inside) and spending time with his parent's bulldog, Rodney"
-      },
-      {
-        "name": "Justin Best",
-        "hometown": "Kennett Square, Pennsylvania",
-        "college": "Drexel University",
-        "image": "https://usrowing.org/images/2021/7/26/Best_14.jpg?width=300",
-        "employer": "Analyst at Union Square Advisors",
-        "collegeResults": "2017, 2018, and 2019 Dad Vail Regatta Medalist",
-        "nationalTeamResults": "2015 World Rowing Under 19 Championships (Men’s 8+) – 2nd, 2018 World Rowing Under 23 Championships (Men’s 8+) – 1st and Worlds Best Time, 2019 World Rowing Under 23 Championships (Men’s 8+) – 2nd, 2020 Tokyo Olympic Games (Men's 8+) – 4th",
-        "facts": "Enjoys watching movies, exercising, making and editing YouTube videos"
-      },
-      {
-        "name": "Sorin Koszyk",
-        "hometown": "Grosse Pointe Park, Michigan",
-        "college": "Cornell University",
-        "image": "https://usrowing.org/images/2021/4/30/2021_WCI_Sorin_Koszyk.jpg?width=300",
-        "employer": "Coach Merion Mercy Academy Women’s Crew, Radnor HS summer learn to row",
-        "collegeResults": "2017 IRA National Championship (Varsity Lightweight 8+) – 1st, 2019 IRA National Championship (Varsity Lightweight 8+) – 1st, 2019 Canadian Henley (Under 23 1x) – 1st",
-        "nationalTeamResults": "2021 Olympic Trials (M4x) – 1st",
-        "facts": "Enjoys playing basketball outside of rowing"
-      },
-      {
-        "name": "Andrew LeRoux",
-        "college": "Princeton University",
-        "image": "https://toppng.com/uploads/preview/shrek-png-11569186903fxw12fqgcs.png",
-        "employer": "Student at Flatiron School",
-        "collegeResults": "2017 IRA National Championships (Varsity 8+) – 4th, 2018 IRA National Championships (Varsity 8+) – 5th",
-        "nationalTeamResults": "2021 US Rowing National Championships (Mens 4- & Mens 2-) – 1st ",
-        "facts": "Enjoys Golf, chess, and cycling"
-      }
-    ]
-  }
+  "rowers": [
+    {
+      "id": 1,
+      "name": "Ben Davison",
+      "hometown": "Inverness, FL",
+      "college": "University of Washington",
+      "image": "https://usrowing.org/images/2021/7/26/Davison_19.jpg?width=300",
+      "employer": "Fremont Group - Operations Intern, Oakland Strokes - Asistant Coach",
+      "collegeResults": "2015 IRA National Championships (Freshman 8+) - 1st, 2017 IRA National Championships (2nd 8+) - 1st, 2018 IRA National Championships (Varsity 8+) - 2nd, 2019 IRA National Championships (Varsity 8+) - 2nd",
+      "nationalTeamResults": "2016 Final Olympic Qualification Regatta (Men's 4x) - 4th, 2017 World Rowing Under 23 Championships (Men's 4+) - 3rd, 2018 World Rowing Under 23 Championships (Men's 1x) - 4th, 2019 World Rowing Championships (Men's 8+) - 5th, 2020 Tokyo Olympic Games (Men's 8+) - 4th",
+      "facts": "Born in Durham, England. Enjoys sports, intermediate crossword puzzles, breakfast burritos (with tater tots inside) and spending time with his parent's bulldog, Rodney"
+    },
+    {
+      "id": 2,
+      "name": "Justin Best",
+      "hometown": "Kennett Square, Pennsylvania",
+      "college": "Drexel University",
+      "image": "https://usrowing.org/images/2021/7/26/Best_14.jpg?width=300",
+      "employer": "Analyst at Union Square Advisors",
+      "collegeResults": "2017, 2018, and 2019 Dad Vail Regatta Medalist",
+      "nationalTeamResults": "2015 World Rowing Under 19 Championships (Men’s 8+) – 2nd, 2018 World Rowing Under 23 Championships (Men’s 8+) – 1st and Worlds Best Time, 2019 World Rowing Under 23 Championships (Men’s 8+) – 2nd, 2020 Tokyo Olympic Games (Men's 8+) – 4th",
+      "facts": "Enjoys watching movies, exercising, making and editing YouTube videos"
+    },
+    {
+      "id": 3,
+      "name": "Sorin Koszyk",
+      "hometown": "Grosse Pointe Park, Michigan",
+      "college": "Cornell University",
+      "image": "https://usrowing.org/images/2021/4/30/2021_WCI_Sorin_Koszyk.jpg?width=300",
+      "employer": "Coach Merion Mercy Academy Women’s Crew, Radnor HS summer learn to row",
+      "collegeResults": "2017 IRA National Championship (Varsity Lightweight 8+) – 1st, 2019 IRA National Championship (Varsity Lightweight 8+) – 1st, 2019 Canadian Henley (Under 23 1x) – 1st",
+      "nationalTeamResults": "2021 Olympic Trials (M4x) – 1st",
+      "facts": "Enjoys playing basketball outside of rowing"
+    },
+    {
+      "id": 4,
+      "name": "Andrew LeRoux",
+      "hometown": "Venice, Florida",
+      "college": "Princeton University",
+      "image": "https://toppng.com/uploads/preview/shrek-png-11569186903fxw12fqgcs.png",
+      "employer": "Student at Flatiron School",
+      "collegeResults": "2017 IRA National Championships (Varsity 8+) – 4th, 2018 IRA National Championships (Varsity 8+) – 5th",
+      "nationalTeamResults": "2021 US Rowing National Championships (Mens 4- & Mens 2-) – 1st",
+      "facts": "Enjoys golf, chess, cycling"
+    },
+    {
+      "id": 5,
+      "name": "Pieter Quinton",
+      "hometown": "Portland, Oregon",
+      "college": "Harvard University & University of Washington",
+      "image": "",
+      "employer": "Associate at ScanlanKemperBard (SKB), a commercial real estate firm. Pieter assists in managing several properties in West Oakland, including the American Steel Building, and in coordinating public-private partnerships to support the surrounding neighborhood",
+      "collegeResults": "2017 IRA National Championships (3rd 8+) - 2nd, 2018 IRA National Championships (3rd 8+) - 2nd, 2019 IRA National Championships (2nd 8+) – 4th, 2019 Harvard-Yale Regatta (2nd 8+) – 1st, 2019 Royal Henley Regatta (Prince Albert Challenge Cup) – 1st, 2021 IRA National Championships (Varsity 8+) – 1st",
+      "nationalTeamResults": "2015 World Rowing Under 19 Championships (Men’s 4+) - 4th, 2016 World Rowing Under 19 Championships (Men’s 4+) - 3rd",
+      "facts": "A true Portlander at heart, Pieter enjoys cycling, skiing, and hiking"
+    },
+    {
+      "id": 6,
+      "name": "Michael Knippen",
+      "hometown": "Germantown, WI",
+      "college": "University of Wisconsin-Madison",
+      "image": "",
+      "employer": "Falls Bridge Capital, COO",
+      "collegeResults": "2013 IRA National Championships (Freshman 8+) – 7th, 2014 IRA National Championships (2nd 8+) – 8th, 2015 IRA National Championships (2nd 8+) – 12th, 2016 IRA National Championships (2nd 8+) – 5th",
+      "nationalTeamResults": "2018 World Rowing Championships (Men’s 4x) - 11th, 2019 World Rowing Championships (Men’s 4x) - 13th, 2021 US National Championships (Men’s 4-) - 1st",
+      "facts": "Golfing, Mountain/Road Biking, Hiking, Surfing, All things water, Bucks/Packers/Badgers, cribbage, and Fortnite. 2015 Madison Ironman Finisher, Met Elon Musk at Hyperloop Competition, have lost and subsequently found every single cat I have watched for other people"
+    },
+    {
+      "id": 7,
+      "name": "Oliver Bub",
+      "hometown": "Westport, CT",
+      "college": "Dartmouth College",
+      "image": "",
+      "employer": "Analyst at Citibank in TMT Credit Team. Oliver has been in a group which finances Tech companies ranging from $100 Million to $4 Billion in Revenue mainly on the West Coast",
+      "collegeResults": "",
+      "nationalTeamResults": "",
+      "facts": "Dual Citizen (Germany)"
+    },
+    {
+      "id": 8,
+      "name": "Andrew Gaard",
+      "hometown": "Madison, Wisconsin",
+      "college": "University of Washington",
+      "image": "",
+      "employer": "Pure Watercraft / Mechanical Engineer / Structural lead and designer of the 2022 Pure Outboard",
+      "collegeResults": "2016 IRA National Championships (Freshman 8+) – 1st, 2017 IRA National Championships (3rd 8+) – 1st, 2018 IRA National Championships (Varsity 8+) – 2nd, 2019 IRA National Championships (Varsity 8+) – 2nd",
+      "nationalTeamResults": "2015 World Rowing Under 19 Championships (Men’s 8+) – 2nd, 2018 World Rowing Under 23 Championships (Men’s 8+) – 1st and Worlds Best Time, 2019 World Rowing Under 23 Championships (Men’s 8+) – 2nd",
+      "facts": "Enjoys cycling and reading"
+    },
+    {
+      "id": 9,
+      "name": "Michael Grady",
+      "hometown": "Pittsburgh, PA",
+      "college": "Cornell University ",
+      "image": "",
+      "employer": "Data Stream Cyber Insurance- Sales Development Representative; Oakland Strokes Varsity Men- Assistant Coach",
+      "collegeResults": "4 time Varsity member",
+      "nationalTeamResults": "2013 World Rowing Under 19 Championships (Men’s 4+) - 8th, 2014 World Rowing Under 19 Championships (Men’s 8+) - 8th, 2017 World Rowing Under 23 Championships (Men’s 8+) - 5th, 2018 World Rowing Under 23 Championships (Men’s 8+) – 1st and Worlds Best Time, 2020 2020 Tokyo Olympic Games (Men's 4-) -  5th",
+      "facts": "@kyro_doodle the best dog, hacky sack, golf amatuer, surfing amatuer, high alpine climbing"
+    },
+    {
+      "id": 10,
+      "name": "Chris Carlson",
+      "hometown": "Bedford, NH",
+      "college": "Marist College / University of Washington",
+      "image": "",
+      "employer": "SMB Sales Development Representative at Deel",
+      "collegeResults": "2016 IRA National Championships (Varsity 4+) – 17th, 2017 IRA National Championships (Varsity 4+) – 9th, 2018 IRA National Championships (Varsity 8+) – 2nd, 2019 IRA National Championships (Varsity 8+) – 2nd",
+      "nationalTeamResults": "2017 World Rowing Under 23 Championships (Men’s 8+) - 4th, 2018 World Rowing Under 23 Championships (Men’s 8+) – 1st and WBT, 2019 World Rowing Under 23 Championships (Men’s 8+) – 2nd, 2021 US Rowing National Championships (Mens 4- & Mens 1x) – 1st",
+      "facts": "Grew up Hiking and Skiing in New Hampshire. Novice golfer"
+    }
+  ]
+}

@@ -79,3 +79,9 @@ body {background-color: maroon;}
     width: calc(20% - 2rem);
   }
 }
+
+
+.form{
+  margin: auto;
+  width: 50%;
+}
