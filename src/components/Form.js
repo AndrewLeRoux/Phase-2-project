@@ -55,9 +55,9 @@ const [formData, setFormData] = useState({
   }
 
     return(
-    <div className = "form">
+    <div className = "form-container">
         <h1>New Athlete Form</h1>
-        <form onSubmit={handleSubmit}>
+        <form className = "form" onSubmit={handleSubmit}>
         <input
             type="text"
             name = "name"

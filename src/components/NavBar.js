@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const linkStyles = {
     display: "inline-block",
-    width: "50px",
+    width: "130px",
     padding: "12px",
-    margin: "0 6px 6px",
-    background: "white",
+    margin: "0px 6px 6px",
+    background: "none",
     textDecoration: "none",
-    color: "maroon",
+    color: "white",
 };
   
 function NavBar() {
@@ -32,7 +32,7 @@ function NavBar() {
             background: "green",
           }}
         >
-          About
+          Athlete Bios
         </NavLink>
         <NavLink
           to="/form"
@@ -42,7 +42,7 @@ function NavBar() {
             background: "green",
           }}
         >
-          Form
+          New Athlete Form
         </NavLink>
       </div>
     );
