@@ -107,7 +107,7 @@ const [formData, setFormData] = useState({
         />
         <br/>
         <input
-            type="textarea"
+            type="text"
             name = "nationalTeamResults"
             placeholder="National Team Results..."
             onChange={handleChange}
