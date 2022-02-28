@@ -28,7 +28,6 @@ const [formData, setFormData] = useState({
   function handleSubmit(e) {
     e.preventDefault();
 
-    onAddRower(formData)
 
 
     fetch("http://localhost:3000/rowers",{
@@ -36,19 +35,22 @@ const [formData, setFormData] = useState({
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-          "name": formData.name,
-          "hometown": formData.hometown,
-          "college": formData.college,
-          "image": formData.image,
-          "employer": formData.employer,
-          "collegeResults": formData.collegeResults,
-          "nationalTeamResults": formData.nationalTeamResults,
-          "facts": formData.facts
-      }),
+      body: JSON.stringify(formData),
     })
     .then((r) => r.json())
-    .then((newRower) => onAddRower(newRower));
+    .then((newRower) => {
+        onAddRower(newRower)
+        setFormData({
+            "name": "",
+            "hometown": "",
+            "college": "",
+            "image": "",
+            "employer": "",
+            "collegeResults": "",
+            "nationalTeamResults": "",
+            "facts": ""
+          })
+    });
 
 
 
@@ -112,6 +114,14 @@ const [formData, setFormData] = useState({
             placeholder="National Team Results..."
             onChange={handleChange}
             value={formData.nationalTeamResults}
+        />
+        <br/>
+        <input
+            type="text"
+            name = "facts"
+            placeholder="facts/hobbies..."
+            onChange={handleChange}
+            value={formData.facts}
         />
         <br/>
         <button type="submit">Add Rower</button>

@@ -1,6 +1,6 @@
 # California Rowing Club
 
-*This is website for the California Rowing Club , a high performance rowing center located in Oakland California. The California Rowing Club exists to provide athletes with an opportunity to develope and train for the Senior Nation Team. Athelete's who make the team will go on to compete at the the World Championships and the Olympics.*
+*This project is a website for the California Rowing Club , a high performance rowing center located in Oakland California. The California Rowing Club exists to provide athletes with an opportunity to develope and train for the Senior Nation Team. Athelete's who make the team will go on to compete at the the World Championships and the Olympics.*
 
 ## About
 

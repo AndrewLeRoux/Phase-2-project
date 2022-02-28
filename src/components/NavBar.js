@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
 const linkStyles = {
     display: "inline-block",
     width: "130px",
@@ -10,7 +9,6 @@ const linkStyles = {
     textDecoration: "none",
     color: "white",
 };
-  
 function NavBar() {
     return (
       <div>
@@ -47,5 +45,4 @@ function NavBar() {
       </div>
     );
 }
-
 export default NavBar
