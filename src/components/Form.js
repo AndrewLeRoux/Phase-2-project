@@ -119,7 +119,7 @@ const [formData, setFormData] = useState({
         <input
             type="text"
             name = "facts"
-            placeholder="facts/hobbies..."
+            placeholder="Facts/Hobbies..."
             onChange={handleChange}
             value={formData.facts}
         />
