@@ -17,8 +17,6 @@ When the user views the Athlete form page, a new athlete form will be rendered (
 ![image](images/athlete_form.jpg)
 
 
-
-
 ## Resources
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
